@@ -1,5 +1,5 @@
 .highlight .hll { background-color: #ffc; }
-.highlight .c { color: #999; } /* Comment */
+.highlight .c { color: #999; background-color: #faa } /* Comment */
 .highlight .err { color: #a00; background-color: #faa } /* Error */
 .highlight .k { color: #069; } /* Keyword */
 .highlight .o { color: #555 } /* Operator */
@@ -59,6 +59,17 @@
 .highlight .vg { color: #033 } /* Name.Variable.Global */
 .highlight .vi { color: #033 } /* Name.Variable.Instance */
 .highlight .il { color: #f60 } /* Literal.Number.Integer.Long */
+
+/* display code line number; the line number is displayed aside from the code separated by a vertical line */
+.highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+/* exclude line numbers from copy-paste user operations; if you copy the code, the line numbers are also copied, so this line is to disable line number copy */
+.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
+
+/* override text selection hightlighting for line numbers; although the above line disables line number copy, but when you select the code, line numbers are also selected which looks ugly; the transparent color will help erase this */
+.lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
+.lineno::selection {background-color: transparent;} /* Other major browsers */
 
 .css .o,
 .css .o + .nt,
