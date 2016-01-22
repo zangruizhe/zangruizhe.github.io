@@ -1,29 +1,32 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+# Site settings
+title: *folio
+email: you@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple, whitespace, helvetica based portfolio theme.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: twitter_username
+github_username:  github_username
 
-# Setup
-title:               Home
-tagline:             "racer's blog"
-description:         'God loves people'
-#description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://zangruizhe.github.io
-baseurl:             ''
-paginate:            5
+# Build settings
+markdown: kramdown
 
-# About/contact
-author:
-  name:              zang ruizhe
-  url:               http://zangruizhe.github.io
-  email:             zangruizhe@gmail.com
+highlighter: pygments
 
-# Custom vars
-version:             1.0.0
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
 
-# navigation bar
-pages:
-Archive: '/archive'
-About: '/about'
-Feed: '/atom.xml'
+# permalink
+permalink: pretty
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+
