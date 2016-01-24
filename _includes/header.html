@@ -6,13 +6,17 @@
 
       <div class="trigger">
         <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="{{ site.baseurl }}/">blog</a>
+        <a class="page-link" href="{{ site.baseurl }}/">Home</a>
 
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.layout == "page" %}
+            {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
+
+        <a class="page-link" href="{{ site.baseurl }}/atom.xml">Subscribe</a>
 
       </div>
     </nav>

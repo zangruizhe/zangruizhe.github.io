@@ -4,11 +4,28 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>
+      {% if page.title == "Home" %}
+        {{ site.title }} &middot; {{ site.tagline }}
+      {% elsif page.title %}
+      {{ page.title }}
+      {% else %}
+      {{ site.title }}
+      {% endif %}
+    </title>
     <meta name="description" content="{{ site.description }}">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/img/my_log.jpg">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/my_log.jpg"">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
 </head>

@@ -22,6 +22,7 @@ $nav-height:                    56px;
 /* portfolio tinkering */
 $img_spacing: 5px; 
 $img_height: 275px;
+// $img_height: 100%;
 $caption_font_size: 12px;
 $caption_color: #aaa;
 
@@ -84,7 +85,19 @@ hr{
 
 }
 
+/*img
 
+img {
+height: 100%;
+width: 100%;
+overflow: hidden;
+box-sizing:border-box;
+padding: $img_spacing;
+padding-left: 0px;
+padding-right: 0px;
+float: left;
+}
+*/
 /**
  * Figures
  */
@@ -155,7 +168,7 @@ article a {
  */
 blockquote {
     color: $text-color;
-    border-left: 10px solid $grey-color-light;
+    border-left: 4px solid $grey-color-light;
     padding-left: $horizontal-spacing-unit / 2;
     font-size: 18px;
     font-style: italic;
@@ -192,39 +205,6 @@ pre {
 }
 */
 
-/* Code */
-code,
-pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-}
-code {
-  padding: .25em .5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
-}
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
-
-
 
 
 /**
@@ -260,6 +240,74 @@ pre code {
         clear: both;
     }
 }
+
+/* beautiful css from other website */
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #717171;
+  background-color: #f9f9f9;
+}
+
+/* Tables */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+
+
+/* Code */
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
 
 
 
