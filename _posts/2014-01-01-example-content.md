@@ -14,6 +14,8 @@ excerpt_separator: <!--test-->
 	<img class="col three" src="/img/9.jpg">
 </div>
 
+![](/img/IMG_0713.jpg)
+
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
