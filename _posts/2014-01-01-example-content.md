@@ -7,14 +7,14 @@ excerpt_separator: <!--test-->
 
 
 <div class="img_row">
-	<img class="col three" src="/img/IMG_0713.jpg">
+	<img class="col three" src="/img/IMG_0713.JPG">
 </div>
 
 <div class="img_row">
-	<img class="col three" src="/img/9.jpg">
+	<img class="col split-to-two" src="/img/IMG_0713.JPG">
 </div>
 
-![](/img/IMG_0713.jpg)
+![](/img/IMG_0713.JPG)
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
