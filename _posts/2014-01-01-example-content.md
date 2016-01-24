@@ -5,13 +5,16 @@ title: Example content
 excerpt_separator: <!--test-->
 ---
 
+<div class="img_row">
+	<img class="col split-to-two" src="/img/IMG_0713.JPG">
+	<img class="col split-to-two" src="/img/IMG_0713.JPG">
+</div>
+
+
+![](/img/IMG_0713.JPG)
 
 <div class="img_row">
 	<img class="col three" src="/img/IMG_0713.JPG">
-</div>
-
-<div class="img_row">
-	<img class="col split-to-two" src="/img/IMG_0713.JPG">
 </div>
 
 ![](/img/IMG_0713.JPG)
