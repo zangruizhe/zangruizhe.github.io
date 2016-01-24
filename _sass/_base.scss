@@ -21,8 +21,8 @@ $nav-height:                    56px;
 
 /* portfolio tinkering */
 $img_spacing: 5px; 
-$img_height: 275px;
-// $img_height: 100%;
+// $img_height: 275px;
+$img_height: 100%;
 $caption_font_size: 12px;
 $caption_color: #aaa;
 
@@ -86,6 +86,7 @@ hr{
 }
 
 /*img
+*/
 
 img {
 height: 100%;
@@ -97,7 +98,7 @@ padding-left: 0px;
 padding-right: 0px;
 float: left;
 }
-*/
+
 /**
  * Figures
  */
