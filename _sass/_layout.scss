@@ -120,6 +120,7 @@ list-style: none;
 margin-bottom: $vertical-spacing-unit;
     }
 }
+
 .contacticon {
 font-size: 60px;
 display:block;
@@ -253,11 +254,10 @@ display: block;
 background: $theme-color;
 }
 .img_row{
-height: $img_height;
 width: 100%;
+height: $img_height;
 overflow: hidden;
 box-sizing:border-box;
-padding: $img_spacing;
 padding-left: 0px;
 padding-right: 0px;
 }
@@ -319,3 +319,25 @@ margin-bottom: 0px;
 font-size: 26px;
 
 }
+
+
+.archive-list {
+margin: 0px 0;
+list-style: none;
+    > li {
+margin-bottom: $vertical-spacing-unit_for_achive;
+    }
+
+h2 {
+
+margin-top: 20px;
+font-size: 30px;
+line-height: 46px;
+@include media-query($on-laptop) {
+font-size: 30px;
+        }
+    }
+
+}
+
+

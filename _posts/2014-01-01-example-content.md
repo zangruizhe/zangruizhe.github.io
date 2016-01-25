@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-05-15 21:01:00
+date: 2015-05-15 21:01:00 +0800
 title: Example content
-excerpt_separator: <!--test-->
+tags: Jekyll Example
+description: this is what included images could look like
 ---
 
 <div class="img_row">
@@ -10,14 +11,16 @@ excerpt_separator: <!--test-->
 	<img class="col split-to-two" src="/img/IMG_0713.JPG">
 </div>
 
+<!--more-->
 
-![](/img/IMG_0713.JPG)
+![](/img/IMG_0246.JPG)
 
 <div class="img_row">
 	<img class="col three" src="/img/IMG_0713.JPG">
 </div>
 
-![](/img/IMG_0713.JPG)
+
+![](/img/IMG_0246.JPG)
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.

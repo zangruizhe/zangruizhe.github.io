@@ -26,6 +26,7 @@ pages:
 aboult: '/aboult'
 
 excerpt_separator: <!--more-->
+# excerpt_separator: ""
 
 collections:
   portfolio:
