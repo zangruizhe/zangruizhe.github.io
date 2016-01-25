@@ -65,8 +65,14 @@ display: line;
         font-size:75px;
     }
     h2{
-        opacity: 0.75;
+        color: $theme-color;
+        // opacity: 0.75;
         font-size:25px;
+    }
+    h3{
+        opacity: 0.75;
+        font-size:20px;
+        text-align: middle;
     }
 }
 
@@ -290,6 +296,13 @@ width: 60%;
 margin-left: 20%;
 margin-right: 20%;
 }
+
+.single {
+width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+}
+
 
 .caption{
 height: 100%;

@@ -15,16 +15,25 @@ description: this is what included images could look like
 
 ![](/img/IMG_0246.JPG)
 
-<div class="img_row">
-	<img class="col three" src="/img/IMG_0713.JPG">
-</div>
 
 
 ![](/img/IMG_0246.JPG)
 
+
+<div class="img_row">
+	<img class="col three" src="/img/IMG_0713.JPG">
+</div>
+
+<div class="col three caption">
+	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
+</div>
+
+  <br/>
+
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
+
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
