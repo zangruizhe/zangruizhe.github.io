@@ -60,12 +60,12 @@ old archive style
 
 {%comment%}
 list the tags
-{%endcomment%}
 
 {% for tag in site.tags %}
 {% assign t = tag | first %}
 {% assign posts = tag | last %}
 <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
 {% endfor %}
+{%endcomment%}
 
 
