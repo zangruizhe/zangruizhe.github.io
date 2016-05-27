@@ -1,12 +1,12 @@
 # Site settings
-title:               Home
+title:               Racer
 tagline:             "racer's blog"
 email: zangruizhe@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  racer's blog.
 baseurl:  '' # the subpath of your site, e.g. /blog/
 url:  http://zangruizhe.github.io # the base hostname & protocol for your site
-twitter_username: twitter_username
+twitter_username: Racer_zang
 github_username: zangruizhe
 
 # Build settings
