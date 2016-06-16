@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-05-15 21:01:00 +0800
+date: 2016-05-15 21:01:00 +0800
 title: 精力管理读书笔记
 tags: notebook
 ---
