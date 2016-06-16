@@ -173,7 +173,8 @@ blockquote {
     color: $text-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $horizontal-spacing-unit / 2;
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: $post-content-font-size;
     font-style: italic;
 
     > :last-child {
@@ -286,7 +287,8 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  // font-size: 85%;
+  font-size: $post-content-font-size;
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
@@ -307,6 +309,7 @@ pre {
 pre code {
   padding: 0;
   font-size: 100%;
+  // font-size: $post-content-font-size;
   color: inherit;
   background-color: transparent;
 }

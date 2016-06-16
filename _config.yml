@@ -12,7 +12,7 @@ github_username: zangruizhe
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+# highlighter: pygments // because github donot support this stype highlight
 
 # Pagination
 paginate: 15
