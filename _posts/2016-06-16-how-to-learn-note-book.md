@@ -18,29 +18,6 @@ tags: notebook
 
 今天读了一篇文章，[原文在此](http://xiaolai.li/)，感觉写的很有道理，摘抄部分笔记如下。
 
-
-{% highlight c++ linenos %}
-
-int main(int argc, char const *argv[])
-{
-	string myString;
-
-	cout << "input a string: ";
-	getline(cin, myString);
-	int length = myString.length();
-	
-	char charArray = new char * [length];
-
-	charArray = myString;
-	for(int i = 0; i < length; ++i){
-		cout << charArray[i] << " ";
-	}
-	
-	return 0;
-}
-
-{% endhighlight %}
-
 1. “优秀是一种习惯”真的并不是空话，是放之四海皆准的道理。随后的过程中，我们会建立很多很多的好习惯，甚至这句话本身也会在各个地方重复 —— 生活质量就是这样一点一点提高的，放在哪个领域里其实都一样。
 
 
