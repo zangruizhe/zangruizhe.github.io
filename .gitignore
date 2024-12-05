@@ -345,3 +345,4 @@ GeneratedSource
 *.spec
 dist
 outputs
+public
