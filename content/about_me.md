@@ -6,7 +6,7 @@ sidebar: false
 menu: main
 ---
 
-## Ruizhe ZANG
+## Ruizhe(Racer) Zang
 
 F#, XGBoost, C++, HFT, Bayesian inference, PyMC, AoC
 
