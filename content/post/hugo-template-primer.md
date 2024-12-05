@@ -1,5 +1,6 @@
 ---
 title: "(Hu)go Template Primer"
+draft: true
 date: 2014-04-02
 thumbnail: "img/placeholder.png"
 tags:
