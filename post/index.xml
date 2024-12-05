@@ -25,24 +25,4 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">(&lt;/span>[]&lt;span style="color:#f92672">,&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>&lt;span style="color:#f92672">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">|&amp;gt;&lt;/span> fst
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">|&amp;gt;&lt;/span> Seq.sumBy &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#66d9ef">fun&lt;/span> &lt;span style="color:#f92672">(&lt;/span>l&lt;span style="color:#f92672">,&lt;/span> r&lt;span style="color:#f92672">)&lt;/span> &lt;span style="color:#f92672">-&amp;gt;&lt;/span> l &lt;span style="color:#f92672">*&lt;/span> r&lt;span style="color:#f92672">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Basic HTML Elements</title><link>http://zangruizhe.github.io/post/basic-elements/</link><pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate><guid>http://zangruizhe.github.io/post/basic-elements/</guid><description>&lt;p>The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>http://zangruizhe.github.io/post/hugo-template-primer/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://zangruizhe.github.io/post/hugo-template-primer/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p></description></item><item><title>Getting Started with Hugo</title><link>http://zangruizhe.github.io/post/getting-started-with-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://zangruizhe.github.io/post/getting-started-with-hugo/</guid><description>&lt;h2 id="step-1-install-hugo">Step 1. Install Hugo&lt;/h2>
-&lt;p>Go to &lt;a href="https://github.com/spf13/hugo/releases">Hugo releases&lt;/a> and download the
-appropriate version for your OS and architecture.&lt;/p>
-&lt;p>Save it somewhere specific as we will be using it in the next step.&lt;/p>
-&lt;p>More complete instructions are available at &lt;a href="https://gohugo.io/getting-started/installing/">Install Hugo&lt;/a>&lt;/p>
-&lt;h2 id="step-2-build-the-docs">Step 2. Build the Docs&lt;/h2>
-&lt;p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.&lt;/p>
-&lt;p>Follow the following steps:&lt;/p>
-&lt;ol>
-&lt;li>Clone the &lt;a href="https://github.com/spf13/hugo">Hugo repository&lt;/a>&lt;/li>
-&lt;li>Go into the repo&lt;/li>
-&lt;li>Run hugo in server mode and build the docs&lt;/li>
-&lt;li>Open your browser to http://localhost:1313&lt;/li>
-&lt;/ol>
-&lt;p>Corresponding pseudo commands:&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
