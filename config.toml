@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'http://zangruizhe.github.io/'
 languageCode = 'en-us'
 title = 'Puzzle Hunt with Racer'
 theme = "mainroad"
