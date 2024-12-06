@@ -6,7 +6,6 @@ paginate = "10" # Number of posts per page
 disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname
 googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
 
-[services]
 [services.disqus]
 shortname = "httpzangruizhegithubio" # Enable Disqus by entering your Disqus shortname
 
