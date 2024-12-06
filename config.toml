@@ -8,7 +8,7 @@ googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
 
 [services]
 [services.disqus]
-shortname = "racer_zang" # Enable Disqus by entering your Disqus shortname
+shortname = "httpzangruizhegithubio" # Enable Disqus by entering your Disqus shortname
 
 [services.googleAnalytics]
 ID = "" # Enable Google Analytics by entering your tracking ID
