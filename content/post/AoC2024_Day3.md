@@ -7,6 +7,8 @@ tags:
 categories:
   - "contest"
   - "puzzle"
+  
+comments: true # Enable Disqus comments for specific page
 ---
 
 Today's question should process the `whole input together`.

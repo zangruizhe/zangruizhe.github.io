@@ -3,8 +3,15 @@ languageCode = 'en-us'
 title = 'Puzzle Hunt with Racer'
 theme = "mainroad"
 paginate = "10" # Number of posts per page
-disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname
+googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
+
+[services]
+[services.disqus]
+shortname = "racer_zang" # Enable Disqus by entering your Disqus shortname
+
+[services.googleAnalytics]
+ID = "" # Enable Google Analytics by entering your tracking ID
 
 [Author]
   name = "Zang Ruizhe(Racer)"
@@ -21,6 +28,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["post", "docs"]
+  comments = true
 
 [Params.logo]
   subtitle = "Why not, give it a shot!" # Logo subtitle
