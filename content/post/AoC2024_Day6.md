@@ -39,12 +39,12 @@ type Day6(lines: string[]) =
             moving next_i next_j op pos_set
 
 
-    member this.Q1(lines: string[]) =
+    member this.Q1() =
         let start: Index = getStart lines
         let post_set = moving (fst start) (snd start) 0 (HashSet())
         post_set.Count
 
-    member this.Q2(lines: string[]) =
+    member this.Q2() =
         let start: Index = getStart lines
         let pos_set = moving (fst start) (snd start) 0 (HashSet())
         pos_set.Remove(start) |> ignore
