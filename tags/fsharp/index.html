@@ -27,12 +27,12 @@
 </span></span><span style=display:flex><span>            moving next_i next_j op pos_set
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>member</span> this.<span style=color:#a6e22e>Q1</span><span style=color:#f92672>(</span>lines<span style=color:#f92672>:</span> <span style=color:#66d9ef>string</span>[]<span style=color:#f92672>)</span> <span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>member</span> this.<span style=color:#a6e22e>Q1</span>() <span style=color:#f92672>=</span>
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> start<span style=color:#f92672>:</span> Index <span style=color:#f92672>=</span> getStart lines
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> post_set <span style=color:#f92672>=</span> moving <span style=color:#f92672>(</span>fst start<span style=color:#f92672>)</span> <span style=color:#f92672>(</span>snd start<span style=color:#f92672>)</span> 0 <span style=color:#f92672>(</span>HashSet()<span style=color:#f92672>)</span>
 </span></span><span style=display:flex><span>        post_set<span style=color:#f92672>.</span>Count
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>member</span> this.<span style=color:#a6e22e>Q2</span><span style=color:#f92672>(</span>lines<span style=color:#f92672>:</span> <span style=color:#66d9ef>string</span>[]<span style=color:#f92672>)</span> <span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>member</span> this.<span style=color:#a6e22e>Q2</span>() <span style=color:#f92672>=</span>
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> start<span style=color:#f92672>:</span> Index <span style=color:#f92672>=</span> getStart lines
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> pos_set <span style=color:#f92672>=</span> moving <span style=color:#f92672>(</span>fst start<span style=color:#f92672>)</span> <span style=color:#f92672>(</span>snd start<span style=color:#f92672>)</span> 0 <span style=color:#f92672>(</span>HashSet()<span style=color:#f92672>)</span>
 </span></span><span style=display:flex><span>        pos_set<span style=color:#f92672>.</span>Remove<span style=color:#f92672>(</span>start<span style=color:#f92672>)</span> <span style=color:#f92672>|&gt;</span> ignore
