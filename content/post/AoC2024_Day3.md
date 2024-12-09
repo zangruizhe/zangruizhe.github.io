@@ -1,5 +1,5 @@
 ---
-title: AoC 2024 Day3
+title: Advent of Code 2024 Day3
 date: 2024-12-04
 tags:
   - "fsharp"
