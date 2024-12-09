@@ -1,5 +1,5 @@
 ---
-title: AoC 2024 Day6
+title: Advent of Code 2024 Day6
 date: 2024-12-06
 tags:
   - "fsharp"
