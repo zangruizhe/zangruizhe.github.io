@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{.Content}}
+<!--<ul class="all-posts">-->
+    {{$pages := .Site.RegularPages}}
+    {{ range $pages.GroupByPublishDate "2006-01" }}
+    <h2 class="archive-year" id="{{.Key | urlize}}">{{.Key}}</h2>
+    <ul class="year-of-posts">
+        {{ range sort .Pages "PublishDate" "asc" }}
+        <li>
+            <p>
+                <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}"></time>
+                {{ .PublishDate.Format "January 2" }}: <a href="{{.Permalink}}">{{.Title}} </a>
+            </p>
+        </li>
+        {{end}}
+    </ul>
+    {{end}}
+<!--</ul>-->
+{{ end }}
+
+
