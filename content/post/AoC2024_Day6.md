@@ -9,7 +9,9 @@ categories:
   - "puzzle"
 ---
 
-Tips for Q2: If the Guard moving to `the same direction at same position twice`, that means Guard is in a loop.
+Tips for Q2:
+
+If the Guard moving to `the same direction at same position twice`, that means Guard is in a loop.
 
 ```fsharp
 type Day6(lines: string[]) =
@@ -78,3 +80,5 @@ type Day6(lines: string[]) =
         |> Seq.length
 
 ```
+
+You can find the source code at [https://github.com/zangruizhe/AoC](https://github.com/zangruizhe/AoC)
