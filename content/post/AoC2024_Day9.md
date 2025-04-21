@@ -90,3 +90,5 @@ type Day9(lines: string[]) =
         |> Array.sum
 
 ```
+
+You can find the source code at [https://github.com/zangruizhe/AoC](https://github.com/zangruizhe/AoC)
