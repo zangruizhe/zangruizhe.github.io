@@ -6,7 +6,7 @@ sidebar: true
 menu: main
 ---
 
-## Ruizhe(Racer) Zang
+Hello, I am `Ruizhe(Racer) Zang`
 
 I like programing:
 1. C++, HFT
