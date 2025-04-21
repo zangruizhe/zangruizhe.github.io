@@ -161,7 +161,7 @@ But with the `top-down` approach, we might:
 
 5. Then implement each function required by steps 1-4. You can still use the top-down way within each function: first design the sub-APIs and data structures, then fill in the logic after the interfaces are clear.
 
-This is a typical top-down software engineering example. At each stage, I always try to think from the user’s point of view: What features do I need? Which functions should provide them? What should these APIs look like? I do not worry about how to implement each function yet. I just assume I can do it later and focus on the current step.
+This is a typical top-down software engineering example. At each stage, I always try to think from the user’s view: What features do I need? Which functions should provide them? What should these APIs look like? I do not worry about how to implement each function yet. I just assume I can do it later and focus on the current step.
 
 Code written this way flows naturally from the user's perspective. Other developers who maintain the code will not feel confused or have to keep a lot of context in mind, because each level of code has a consistent level of abstraction - it's always about combining functions to create higher-level features.
 
