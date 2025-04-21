@@ -8,6 +8,15 @@ menu: main
 
 ## Ruizhe(Racer) Zang
 
-F#, XGBoost, C++, HFT, Bayesian inference, PyMC, AoC
+I like programing:
+1. C++, HFT
+2. Python machine learning, XGBoost
+3. Functional Programming, F#
 
-My AoC F# solution: https://github.com/zangruizhe/AoC
+I like using probability:
+1. Texas hold 'em
+2. Bayesian inference, PyMC
+
+I like programming challenges:
+
+My [AoC](https://adventofcode.com) F# solution: [https://github.com/zangruizhe/AoC](https://github.com/zangruizhe/AoC)

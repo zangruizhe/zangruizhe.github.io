@@ -2,7 +2,7 @@ baseURL = 'https://zangruizhe.github.io/'
 languageCode = 'en-us'
 title = 'Puzzle Hunt with Racer'
 theme = "mainroad"
-paginate = "10" # Number of posts per page
+paginate.pagerSize  = "10" # Number of posts per page
 disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname
 googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
 
