@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Program on Puzzle Hunt with Racer</title><link>https://zangruizhe.github.io/categories/program/</link><description>Recent content in Program on Puzzle Hunt with Racer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://zangruizhe.github.io/categories/program/index.xml" rel="self" type="application/rss+xml"/><item><title>Think Programming - Insights from My Coding Journey</title><link>https://zangruizhe.github.io/post/think_programming/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://zangruizhe.github.io/post/think_programming/</guid><description>&lt;blockquote>
+&lt;p>Note: The main content is first written in Chinese, with the English translation (by AI) following below.&lt;/p>&lt;/blockquote>
+&lt;h2 id="chinese-version">Chinese Version&lt;/h2>
+&lt;p>我编写商业软件到现在有10年的时间.&lt;/p>
+&lt;p>使用过的编程语言(按掌握程度排序): C/C++, Python, Python(machine learn), F#, Golang, Scala, Clojure, JavaScript&lt;/p>
+&lt;p>使用过的编程范式: Object-Oriented (OO), Functional Programming (FP)&lt;/p>
+&lt;p>实现过的软件项目: 低延迟TCP/UDP Server side Framework, 高并发订单系统, 利用machine learning实现的高性能预测系统等等&lt;/p>
+&lt;p>我计划在这篇文章里记录一下我对编程的一些思考, 而且这些想法随着我解决更复杂问题, 积累更多的经验后也会有些变化, 因此我会不断更新这篇文章.&lt;/p>
+&lt;h3 id="1-自顶向下编程">1. 自顶向下编程&lt;/h3>
+&lt;p>有两种编程理念, 一种是自底向上, 一种是自顶向下.&lt;/p>
+&lt;p>&lt;code>自低向上&lt;/code>: 先实现很多小的函数, 然后使用这些小函数组成很复杂的功能. 在很多讲lisp的书里, 经常会讲如何实践自底向上的编程思想.&lt;/p>
+&lt;p>&lt;code>自顶向下&lt;/code>: 从使用者的角度, 先写完框架/函数API, 最后才是具体代码实现.&lt;/p>
+&lt;p>我赞同&lt;code>使用很多小的函数组成很复杂的功能&lt;/code>这个编程思路, 但是在我的编程实践里, 我认为自顶向下才更容易写出高质量的代码.&lt;/p>
+&lt;p>举个例子:
+假如我们要写一个网站,用来展示在不同的网站上,同一款汽车的最新销售信息, 方便用户选择最优的网站去购买汽车&lt;/p>
+&lt;p>如果使用&lt;code>自底向上&lt;/code>的思路, 我们会依次实现这些代码&lt;/p></description></item></channel></rss>
