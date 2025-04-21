@@ -6,7 +6,7 @@ sidebar: true
 menu: main
 ---
 
-Hello, I am `Ruizhe(Racer) Zang`
+Hello, I am `Ruizhe(Racer) Zang`.
 
 I like programing:
 1. C++, HFT
@@ -20,3 +20,4 @@ I like using probability:
 I like programming challenges:
 
 My [AoC](https://adventofcode.com) F# solution: [https://github.com/zangruizhe/AoC](https://github.com/zangruizhe/AoC)
+My F-99 solution: [https://github.com/zangruizhe/F-99](https://github.com/zangruizhe/F-99)
