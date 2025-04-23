@@ -6,6 +6,7 @@ tags:
 - "think"
 categories:
 - "program"
+- "think"
 ---
 
 > Note: The main content is first written in Chinese, with the English translation (by AI) following below.
