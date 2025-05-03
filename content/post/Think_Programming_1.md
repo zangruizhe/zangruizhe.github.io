@@ -1,5 +1,5 @@
 ---
-title: Think Programming - Insights from My Coding Journey
+title: Think Programming(1) - Insights from My Coding Journey
 date: 2025-02-04
 tags:
 - "program"
@@ -9,7 +9,7 @@ categories:
 - "think"
 ---
 
-> Note: The main content is first written in Chinese, with the English translation (by AI) following below.
+> Note: The main content is first written in Chinese, with the English translation following below.
 
 ## Chinese Version
 
@@ -23,7 +23,7 @@ categories:
 
 我计划在这篇文章里记录一下我对编程的一些思考, 而且这些想法随着我解决更复杂问题, 积累更多的经验后也会有些变化, 因此我会不断更新这篇文章.
 
-### 1. 自顶向下编程
+### 自顶向下编程
 
 有两种编程理念, 一种是自底向上, 一种是自顶向下.
 
@@ -83,17 +83,6 @@ categories:
 
 这就是我推荐的`自顶向下编程`方法
 
-### 2. OO VS FP
-
-接下来我想讨论一下 OO 和 FP. 先说结论:
-
-> 只使用任何一个都不能写出能快速交付, 同时又容易维护的代码工程. 
-> 
-> 我们需要结合这两种编程模式的优点, 谨慎使用这些思想工具, 尤其是OO, 如果过度使用OO的一些编程思想, 例如: 继承, 代码会很快变得难以理解和维护.
-
-未完待续...
-
-
 ## English version
 
 I have been developing commercial software for 10 years.
@@ -109,7 +98,7 @@ low-latency TCP/UDP server-side framework, high-concurrency order system, high-p
 
 In this article, I want to share some of my thoughts about programming. These ideas may change as I solve more complex problems and gain more experience, so I will keep updating this article over time.
 
-### 1. Top-Down Programming
+### Top-Down Programming
 
 There are two main programming approaches: bottom-up and top-down.
 
@@ -167,13 +156,3 @@ This is a typical top-down software engineering example. At each stage, I always
 Code written this way flows naturally from the user's perspective. Other developers who maintain the code will not feel confused or have to keep a lot of context in mind, because each level of code has a consistent level of abstraction - it's always about combining functions to create higher-level features.
 
 This is why I recommend the `top-down programming` method.
-
-### 2. OO VS FP
-
-Now I want to talk briefly about Object-Oriented (OO) and Functional Programming (FP). My conclusion is: 
-
-> using either approach alone won't help you write code that's both quick to deliver and easy to maintain.
-> 
-> We need to combine the best of both worlds and use these ideas carefully. This is especially true for OO - overusing OO concepts (for example: inheritance) can quickly make code hard to understand and maintain.
-
-To be continued…
