@@ -25,7 +25,7 @@ categories:
 
 KISS原则类似于奥卡姆剃刀, 就是`尽量用简单的方式解决问题, 不仅仅是不要over kill, 而是要尽量的简单, Stupid Simple的那种简单`.
 
-然后是`Pirate`, 在这里指`海盗精神`, 就是`在一些关键问题上, 不会轻易接受主流认知, 总是先质疑, 然后验证, 最后才是决定是否接受`.
+然后是`Pirate`, 在这里指`海盗精神`, 就是不随大流, 不墨守成规, 有自己的思想, 知行合一, `在一些关键问题上, 不会轻易接受主流认知, 总是先质疑, 然后验证, 最后才是决定是否接受`.
 
 比如:
 
@@ -66,7 +66,7 @@ First, let’s look at `kiss`. Here, it means the `KISS principle`. In English, 
 
 The KISS principle is similar to Occam’s Razor. `It means you should try to solve problems in a simple way, not just avoid making things too complex, but make them really, really simple. "Stupid Simple" means as simple as possible.`
 
-Next is `Pirate`. Here, it means the `pirate spirit`, which is: `When facing important questions, do not easily accept what most people believe. Always question first, then test and check, and only then decide whether to accept an idea.`
+Next is `Pirate`. Here, it means the `pirate spirit`, which is: not following the crowd, not sticking to old rules, and having your own way of thinking. You do what you believe. `When facing important questions, do not easily accept what most people believe. Always question first, then test and check, and only then decide whether to accept an idea.`
 
 For example:
 
