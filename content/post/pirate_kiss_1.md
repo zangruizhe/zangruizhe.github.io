@@ -10,6 +10,7 @@ categories:
 - "think"
 
 ---
+![1](/images/pirate.jpg)
 
 > Note: The main content is first written in Chinese, with the English translation following below.
 
