@@ -378,7 +378,7 @@
 &lt;li>详情：事情的客观详情&lt;/li>
 &lt;li>结果：过一段时间再回头看这个分级是否合理&lt;/li>
 &lt;/ul></description></item><item><title>About me</title><link>https://zangruizhe.github.io/about_me/</link><pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate><guid>https://zangruizhe.github.io/about_me/</guid><description>&lt;p>Hello, I am &lt;code>Ruizhe(Racer) Zang&lt;/code>.&lt;/p>
-&lt;p>I like programing:&lt;/p>
+&lt;p>I like programming:&lt;/p>
 &lt;ol>
 &lt;li>C++, HFT&lt;/li>
 &lt;li>Python machine learning, XGBoost&lt;/li>
@@ -390,5 +390,5 @@
 &lt;li>Bayesian inference, PyMC&lt;/li>
 &lt;/ol>
 &lt;p>I like programming challenges:&lt;/p>
-&lt;p>My &lt;a href="https://adventofcode.com">AoC&lt;/a> F# solution: &lt;a href="https://github.com/zangruizhe/AoC">https://github.com/zangruizhe/AoC&lt;/a>
-My F-99 solution: &lt;a href="https://github.com/zangruizhe/F-99">https://github.com/zangruizhe/F-99&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>My &lt;a href="https://adventofcode.com">AoC&lt;/a> F# solution: &lt;a href="https://github.com/zangruizhe/AoC">https://github.com/zangruizhe/AoC&lt;/a>&lt;/p>
+&lt;p>My F-99 solution: &lt;a href="https://github.com/zangruizhe/F-99">https://github.com/zangruizhe/F-99&lt;/a>&lt;/p></description></item></channel></rss>
