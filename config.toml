@@ -17,6 +17,10 @@ ID = "" # Enable Google Analytics by entering your tracking ID
   bio = "F#, XGBoost, C++, HFT, Bayesian inference, PyMC, AoC"
   avatar = "img/avatar.png"
 
+[[menu.main]]
+    name = "RSS"
+    url = "index.xml"
+
 [Params]
   description = "Why not, give it a shot!" # Description of your site
   opengraph = true
@@ -50,4 +54,4 @@ cached = false # activate cache if true
 twitter = "Racer_zang"
 github = "zangruizhe"
 linkedin = "ruizhe-racer-zang-627227b9"
-email = "ruizhe DOT zang AT gmail DOT com "
+email = "ruizhe DOT zang AT gmail DOT com"
