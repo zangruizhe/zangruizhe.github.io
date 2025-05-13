@@ -2,7 +2,7 @@
 title: The Illusion of a Perfect World 完美世界的幻觉
 date: 2025-05-08
 tags:
-- "psychology"
+- "Perfectionism"
 categories:
 - "psychology"
 
