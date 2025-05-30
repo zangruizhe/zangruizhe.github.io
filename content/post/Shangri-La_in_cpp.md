@@ -9,10 +9,6 @@ categories:
 - "program"
 ---
 
-
-
-
-
 C++程序员生活在两个世界里, 区别在于是否使用`template metaprogramming`(TMP).
 
 C++ programmers live in two worlds, which are different depending on whether they use `template metaprogramming`(TMP) or not.
