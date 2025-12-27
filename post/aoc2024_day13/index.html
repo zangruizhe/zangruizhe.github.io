@@ -9,10 +9,10 @@ type Day13(lines: string[]) = let lines = String.Join("", lines) |> split2Int64B
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> getMinCost <span style=color:#f92672>(</span>ai<span style=color:#f92672>,</span> aj<span style=color:#f92672>)</span> <span style=color:#f92672>(</span>bi<span style=color:#f92672>,</span> bj<span style=color:#f92672>)</span> <span style=color:#f92672>(</span>ti<span style=color:#f92672>,</span> tj<span style=color:#f92672>)</span> <span style=color:#f92672>=</span>
 </span></span><span style=display:flex><span>        <span style=color:#75715e>// a * ai + b * bi = ti
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#75715e>// a * aj + b * bj = tj
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#75715e>// solve a, b
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#75715e>// because for every a, b, t only have one or zero int solution
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#66d9ef>let</span> d <span style=color:#f92672>=</span> ai <span style=color:#f92672>*</span> bj <span style=color:#f92672>-</span> aj <span style=color:#f92672>*</span> bi
+</span></span></span><span style=display:flex><span>        <span style=color:#75715e>// a * aj + b * bj = tj
+</span></span></span><span style=display:flex><span>        <span style=color:#75715e>// solve a, b
+</span></span></span><span style=display:flex><span>        <span style=color:#75715e>// because for every a, b, t only have one or zero int solution
+</span></span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> d <span style=color:#f92672>=</span> ai <span style=color:#f92672>*</span> bj <span style=color:#f92672>-</span> aj <span style=color:#f92672>*</span> bi
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> a <span style=color:#f92672>=</span> <span style=color:#f92672>(</span>ti <span style=color:#f92672>*</span> bj <span style=color:#f92672>-</span> tj <span style=color:#f92672>*</span> bi<span style=color:#f92672>)</span> <span style=color:#f92672>/</span> d
 </span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> b <span style=color:#f92672>=</span> <span style=color:#f92672>(</span>tj <span style=color:#f92672>*</span> ai <span style=color:#f92672>-</span> ti <span style=color:#f92672>*</span> aj<span style=color:#f92672>)</span> <span style=color:#f92672>/</span> d
 </span></span><span style=display:flex><span>
